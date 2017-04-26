@@ -16,8 +16,10 @@
 	background: url("https://i.imgur.com/NUhSyNd.jpg")!important;
     background-size: cover!important;
 }
-.layers { 
-    background: transparent !important; 
+.layers,
+.layer,
+.search-header {
+    background: transparent !important;
 }
 
 /* Main Chat */
@@ -839,6 +841,19 @@ span.discriminator {
     border: 3px solid transparent !important;
     -webkit-transition: all 0.3s ease !important;
 }
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+	padding-right: inherit;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon {
+	width: 35px;
+}
+#user-profile-modal .header .header-info .profile-badge.badge-premium {
+    background-image: url(/assets/386884eecd36164487505ddfbac35a9d.svg);
+    padding-right: 8px;
+    margin-right: 5px;
+    margin-bottom: 45px;
+    margin-left: -19px;
+}
 
 /* Emoji/Emotes */
 .channel-textarea-emoji>.sprite-item,
@@ -1545,6 +1560,15 @@ span.discriminator {
 }
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
     color: rgba(236, 236, 236, 0.8);
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header {
+    border-bottom: 1px solid #9f0000;
+}
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username {
+    color: white;
+ }
+ .guild-settings-modal-emoji .emoji-row {
+    border-bottom: 1px solid #9f0000;
 }
 .guild-settings-modal .emoji-row .btn.btn-danger:hover, 
 .guild-settings-modal .member-buttons .btn.btn-danger:hover {
