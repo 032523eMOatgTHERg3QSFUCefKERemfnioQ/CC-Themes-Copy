@@ -14,8 +14,10 @@
     background: url("https://i.imgur.com/NUhSyNd.jpg");
     background-size: cover;
 }
-.layers { 
-    background: transparent !important; 
+.layers,
+.layer,
+.search-header {
+    background: transparent !important;
 }
 
 /* Main Chat */
