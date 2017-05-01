@@ -675,7 +675,6 @@ a:link {
     background-size: 128px 128px;
     border-radius: 10%;
 }
-
 #user-profile-modal header {
     background-image: none;
     background-color: #afafff;
@@ -685,6 +684,12 @@ a:link {
 }
 #user-profile-modal .avatar-profile {
     border: 6px solid #afafff!important;
+}
+#user-profile-modal .avatar-wrapper {
+    background-color: transparent;
+}
+#user-profile-modal .header:after {
+        background-image: none;
 }
 #user-profile-modal footer {
     border-top: 1px solid #afafff;
@@ -710,15 +715,32 @@ a:link {
     background-color: #8282ff;
 }
 #user-profile-modal .header {
-    background-color: rgba(30, 26, 41, 0.78);
+    background-color: rgba(23, 23, 25, 0.75);
     background-image: none;
 }
+#user-profile-modal .header .header-info .header-info-inner .discord-tag {
+    color: #7289da;
+}
 #user-profile-modal .tab-bar-container {
-    background-color: rgba(30, 26, 41, 0.78);
+    background-color: rgba(23, 23, 25, 0.75);
     border-bottom: none;
+    border-top: 1px solid #afafff;
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom-color: #8282ff;
+    color: #7289da;
+}
+#user-profile-modal .tab-bar .tab-bar-item {
+    color: #fff;
 }
 #user-profile-modal .guilds .section .section-header {
     color: #e6e6fa;
+}
+#user-profile-modal .guilds .section+.section {
+    border-top: 1px solid #afafff;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border: 1px solid #afafff;
 }
 #user-profile-modal .sub-header {
     background: rgba(0, 0, 0, 0.78);
@@ -759,8 +781,11 @@ a:link {
     background: #8282ff !important;
 }
 .note textarea:focus {
-    background: #e6e6fa;
+    background: #afafff;
     border-radius: 8px;
+}
+.note textarea {
+    color: #fff;
 }
 
 
@@ -1371,6 +1396,10 @@ voice-connection-popout hr {
 
 
 /* Right Side */
+.theme-dark .channel-members-loading {
+    background-color: transparent;
+    opacity: 0 !important;
+}
 .guilds-wrapper .guilds .friends-icon:hover {
     background-color: #8282ff !important;
 }
@@ -2029,6 +2058,12 @@ voice-connection-popout hr {
 .search-bar {
     box-shadow: inset 5px 0px 5px -6px rgba(0,0,0,0.5);
 }
+.search-bar .search-bar-inner {
+    background: #6b6bd6;
+}
+.search-bar-tag {
+    background: #afafff;
+}
 .badge {
     background-color: #afafff;
 }
@@ -2044,6 +2079,33 @@ search-bar-clear {
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item .badge {
     background-color: #afafff;
     color: #fff;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected,
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: #8282ff;
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: #8d7eda;
+}
+.search-popout .results-group .header {
+    color: #7289da;
+}
+.search-popout {
+    background-color: #afafff;
+}
+.search-popout .option:after,
+.search-popout .option.selected:after {
+    background: transparent;
+}
+.search-popout .search-option .filter,
+.search-popout .search-option .answer  {
+    color: #ffffff;
+}
+.search-popout .option .non-text {
+    color: #ffffff;
+}
+.search-popout .option.selected {
+    background-color: #9a9af7;
 }
  
 /* Pulses */
