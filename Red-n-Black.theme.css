@@ -1822,6 +1822,9 @@ span.discriminator {
 .theme-dark .ui-form-title.h5 {
     color: #9f0000;
 }
+.bd-blue .ui-switch-checkbox:checked+.ui-switch {
+    background: #9f0000;
+}
 .flex-nowrap,
 .theme-dark .ui-standard-sidebar-view .content-region {
     background: transparent;
