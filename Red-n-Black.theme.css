@@ -1,3 +1,4 @@
+
 {} 
 
 /* Backgrounds */
@@ -73,8 +74,8 @@
     background: #9f0000;
     border-radius: 5px;
 }
-.chat .has-more button {
-    color: #9f0000;
+.bd-blue .chat .has-more button {
+    color: #fff;
 }
 .chat .welcome-message h1 {
     color: #9f0000;
@@ -2096,6 +2097,17 @@ scroller.settings-wrapper.settings-panel {
 .form .form-inner,
 .form .form-actions {
     background: transparent;
+}
+.buttonBrandFilled-3Mv0Ra,
+.buttonGreenFilled-6QHNrw {
+    background-color: #9f0000;
+}
+.buttonBrandFilledDefault-2Rs6u5:hover,
+.buttonGreenFilledDefault-_lLQaz:hover {
+    background-color: #6f0000;
+}
+.bd-blue .theme-dark .ui-text-input .input:focus {
+    border-color: #9f0000;
 }
 
 /* Better Discord Settings */
