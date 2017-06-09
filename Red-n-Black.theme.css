@@ -1,3 +1,4 @@
+//META{"name":"Red_n_Black","description":"Just a red and black theme with a hint of anime.","author":"CreamCheese (C.C.)","version":"1.0v"}*//
 
 {} 
 
@@ -24,6 +25,9 @@
 }
 
 /* Main Chat */
+.horizontal-2BEEBe {
+    background-color: rgba(0, 0, 0, 0.6);
+}
 .chat .content {
     box-shadow: inset 10px 10px 5px -5px rgba(39, 0, 0, 0.5);
 }
@@ -466,6 +470,9 @@ a:link {
 }
 
 /* Left Side Settings */
+.container-RYiLUQ  {
+    background: transparent !important;    
+}
 .account {
     border-top: 1px solid #9f0000 !important;
     background: rgba(0, 0, 0, 0);
@@ -618,6 +625,9 @@ a:link {
 #rtc-connection .btn-disconnect:hover:after {
     background-image: url(https://i.imgur.com/LAyMjfz.png);
     opacity: 1;
+}
+.separator-3Ozi37 {
+    background-color: #9f0000;
 }
     
 /* Public Button */
@@ -2361,6 +2371,13 @@ scroller.settings-wrapper.settings-panel {
 }
 .theme-dark .themed-popout .header {
     background-color: #9f0000;
+}
+#user-profile-modal .header .header-info .profile-badge {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 42px;
+    height: 32px;
+    cursor: pointer;
 }
  
 /* Pulses */
