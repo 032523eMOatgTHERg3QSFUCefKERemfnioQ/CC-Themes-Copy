@@ -380,6 +380,9 @@ a:link {
 }
 
 /* Left Side Settings */
+.container-RYiLUQ  {
+    background: transparent !important;    
+}
 .account {
     border-top: 3px solid #afafff!important;
     background: rgba(0, 0, 0, 0);
